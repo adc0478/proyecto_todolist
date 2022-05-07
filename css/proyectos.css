@@ -1,0 +1,91 @@
+.btn{
+  width:40px;
+  height: auto;
+  padding: 0%;
+  background-color: rgba(1,1,1,0);
+  margin-left:10px ;
+  cursor: pointer;
+ }
+ .table .btn{
+   width:20px;
+ }
+ .btn-table{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+ }
+.btn img:hover{
+  animation-name: btn_animar;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
+
+}
+@keyframes btn_animar{
+  to{
+    border-radius: 15px;
+    background-color: red;
+  }
+}
+select{
+  width: 50%;
+  height: 30px;
+}
+.btn img{
+  width: 100%;
+  height: 100%;
+}
+.container_Bproyecto, .container_Btarea, .container_grupoTrabajo{
+   width: 80%;
+   height: auto;
+   margin: 0 auto;
+}
+.barra_proyecto, .barra_tarea, .barra_grupoTrabajo{
+  width: 60%;
+  margin-left: 40%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  background-color: rgb(251,248,248);
+  box-shadow: 3px 4px 11px rgba(1,1,1,.2);
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-items: center;
+}
+.barra_proyecto, .barra_grupoTrabajo, .barra_grupoTrabajo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  }
+
+.barra_grupoTrabajo select, .barra_proyecto select{
+  margin: 5px;
+  width: 80%;
+}
+.barra_tarea{
+  border-radius: 15px 15px 0px 0px;
+}
+.tareas{
+ width: 80%;
+ margin: 0 auto;
+ height: 600px;
+ margin-bottom: 80px;
+ display:grid;
+ grid-template-columns: 1fr 60%;
+ grid-gap: 10px;
+}
+.barra_estadistica, .lista_tareas{
+  background-color: rgb(196,196,196);
+}
+@media screen and (max-width:990px) {
+ .barra_proyecto, .barra_tarea, .barra_grupoTrabajo{
+   width: 100%;
+   margin-left: 0%;
+   grid-template-columns: 1fr;
+ }
+ .barra_estadistica{
+   display:none;
+ }
+ .tareas{
+   grid-template-columns: 1fr;
+ }
+}

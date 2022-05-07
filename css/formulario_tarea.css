@@ -1,0 +1,81 @@
+.formulario_tarea{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:15px;
+  width:100%;
+  margin:0 auto;
+}
+.btn_time{
+  width:30px;
+  height:30px;
+}
+.formulario{
+  background-color: rgba(238,110,115,.9);
+  display:grid;
+  position: absolute;
+  grid-template-columns: 1fr;
+  width:70%;
+  left:15%;
+  top:20%;
+  padding:10px;
+  animation-name: animar_tarea;
+  animation-duration:1s;
+  animation-fill-mode: forwards;
+}
+@keyframes animar_tarea{
+  from {
+   left:-100%;
+  }
+  to{
+   left:15%;
+  }
+
+}
+.campo{
+   display: grid;
+   grid-template-columns:1fr;
+   justify-items: center;
+}
+.campo input, label{
+  width:70%;
+  height:25px;
+}
+.campo div{
+   width:70%;
+   display:grid;
+   grid-template-columns:80% 20%;
+}
+.campo div input{
+  width:100%;
+  font-size:11px;
+}
+.campo div button{
+  justify-self: end;
+}
+.comandos_tarea{
+  margin-top: 10px;
+  display: grid;
+  grid-gap: 15px;
+  justify-items: center;
+}
+.formulario h1{
+  text-align: center;
+  color:cyan;
+}
+button{
+  width:90%;
+  height:40px;
+  border:none;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 1px 1px 3px 2px rgba(1,1,1,.3);
+}
+@media screen and (max-width:768px){
+ .formulario_tarea{
+   grid-template-columns: 1fr;
+ } 
+ .formulario{
+   top:10%;
+ }
+}

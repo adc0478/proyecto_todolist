@@ -1,0 +1,98 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/srv/http/todolist/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+#btn_abrir	/srv/http/todolist/css/menu.css	/^	#btn_abrir{$/;"	i
+#btn_cerrar	/srv/http/todolist/css/menu.css	/^	#btn_cerrar{$/;"	i
+#btn_menu	/srv/http/todolist/css/menu.css	/^	#btn_menu{$/;"	i
+#btn_menu	/srv/http/todolist/css/menu.css	/^#btn_menu{$/;"	i
+#error	/srv/http/todolist/css/registro.css	/^#error{$/;"	i
+#info	/srv/http/todolist/css/registro.css	/^#info{$/;"	i
+.copyright p	/srv/http/todolist/css/footer.css	/^.copyright p{ $/;"	s
+.error	/srv/http/todolist/css/login.css	/^.error{$/;"	c
+.error img	/srv/http/todolist/css/login.css	/^.error img{$/;"	s
+.form_login	/srv/http/todolist/css/login.css	/^ .form_login{$/;"	c
+.form_login	/srv/http/todolist/css/login.css	/^.form_login{$/;"	c
+.form_login div	/srv/http/todolist/css/login.css	/^.form_login div{$/;"	s
+.form_login div input	/srv/http/todolist/css/login.css	/^.form_login div input,label{$/;"	s
+.form_login img	/srv/http/todolist/css/login.css	/^.form_login img{$/;"	s
+.form_login input	/srv/http/todolist/css/login.css	/^.form_login input{$/;"	s
+.form_registro	/srv/http/todolist/css/registro.css	/^  .form_registro{$/;"	c
+.form_registro	/srv/http/todolist/css/registro.css	/^.form_registro{$/;"	c
+.form_registro .contenido div	/srv/http/todolist/css/registro.css	/^.form_registro .contenido div{$/;"	s
+.form_registro div	/srv/http/todolist/css/registro.css	/^.form_registro div{$/;"	s
+.form_registro img	/srv/http/todolist/css/registro.css	/^.form_registro img{$/;"	s
+.form_registro input	/srv/http/todolist/css/registro.css	/^.form_registro input,label{$/;"	s
+.menu	/srv/http/todolist/css/menu.css	/^	.menu{$/;"	c
+.redes img	/srv/http/todolist/css/footer.css	/^.redes img{$/;"	s
+.salida	/srv/http/todolist/css/registro.css	/^.salida{$/;"	c
+BD	/srv/http/todolist/clases/coneccion.php	/^  private $BD;$/;"	v	class:Conexion
+BD	/srv/http/todolist/config/config_conexion.php	/^        $BD =  "todolist"; \/\/  id15912427_trabajo$/;"	v
+Conexion	/srv/http/todolist/clases/coneccion.php	/^class Conexion{$/;"	c
+Login	/srv/http/todolist/clases/login.php	/^class Login$/;"	c
+__construct	/srv/http/todolist/clases/coneccion.php	/^  public function __construct()$/;"	f	class:Conexion
+__construct	/srv/http/todolist/clases/login.php	/^  function __construct($nombre,$apellido,$correo,$clave,$tabla)$/;"	f	class:Login
+__destruct	/srv/http/todolist/clases/coneccion.php	/^  public function __destruct()$/;"	f	class:Conexion
+abrir_menu	/srv/http/todolist/js/accion_menu.js	/^function abrir_menu(){$/;"	f
+apellido	/srv/http/todolist/clases/login.php	/^  private $apellido;$/;"	v	class:Login
+atributos	/srv/http/todolist/js/nodos.js	/^	this.atributos = function (val_id,atri,valor){$/;"	m	class:nodos
+body	/srv/http/todolist/css/estilos.css	/^body{$/;"	s
+body	/srv/http/todolist/js/login.js	/^     body:mis_datos$/;"	p	class:ingresar_login.opt
+body	/srv/http/todolist/js/registro.js	/^    body:datos$/;"	p	class:registrar_usuario.opt
+borrar	/srv/http/todolist/js/nodos.js	/^	this.borrar = function (val_id,padre_id){$/;"	m	class:nodos
+button	/srv/http/todolist/css/login.css	/^button{$/;"	s
+button	/srv/http/todolist/css/registro.css	/^button{$/;"	s
+cerrar_menu	/srv/http/todolist/js/accion_menu.js	/^function cerrar_menu(){$/;"	f
+cerrar_session	/srv/http/todolist/clases/login.php	/^  public function cerrar_session(){$/;"	f	class:Login
+clave	/srv/http/todolist/clases/login.php	/^  private $clave;$/;"	v	class:Login
+claveBD	/srv/http/todolist/config/config_conexion.php	/^        $claveBD="adc";\/\/ bgP3ak&9G\\(Y3>T?$/;"	v
+clave_hash	/srv/http/todolist/clases/login.php	/^  private $clave_hash;$/;"	v	class:Login
+correo	/srv/http/todolist/clases/login.php	/^  private $correo;$/;"	v	class:Login
+crear	/srv/http/todolist/js/nodos.js	/^	this.crear = function (tipo,val_id,val_class,padre_id){$/;"	m	class:nodos
+crearTexto	/srv/http/todolist/js/nodos.js	/^	this.crearTexto= function(padre_id,texto){$/;"	m	class:nodos
+crear_etiqueta	/srv/http/todolist/js/nodos.js	/^        this.crear_etiqueta = function (padre_id,etiqueta){$/;"	m	class:nodos
+footer	/srv/http/todolist/css/footer.css	/^footer{$/;"	s
+html	/srv/http/todolist/css/estilos.css	/^html{$/;"	s
+ingresar	/srv/http/todolist/clases/login.php	/^  public function ingresar(){$/;"	f	class:Login
+ingresar_login	/srv/http/todolist/js/login.js	/^function ingresar_login(){$/;"	f
+ingresar_registro	/srv/http/todolist/js/login.js	/^function ingresar_registro(){$/;"	f
+input	/srv/http/todolist/css/registro.css	/^input{$/;"	s
+label	/srv/http/todolist/css/login.css	/^.form_login div input,label{$/;"	s
+label	/srv/http/todolist/css/login.css	/^label{$/;"	s
+label	/srv/http/todolist/css/registro.css	/^.form_registro input,label{$/;"	s
+label	/srv/http/todolist/css/registro.css	/^label{$/;"	s
+limpiar_pantalla	/srv/http/todolist/js/registro.js	/^function limpiar_pantalla(){$/;"	f
+log	/srv/http/todolist/action/login.php	/^     $log = new Login("","",$_POST['usuario'],$_POST['pass'],$tabla_us);$/;"	v
+log	/srv/http/todolist/action/registro_usuario.php	/^    $log = new Login($_POST['nombre'],$_POST['apellido'],$_POST['correo'],$_POST['pass'],$tabla_/;"	v
+method	/srv/http/todolist/js/login.js	/^     method:"POST",$/;"	p	class:ingresar_login.opt
+method	/srv/http/todolist/js/registro.js	/^    method:"POST",$/;"	p	class:registrar_usuario.opt
+nodos	/srv/http/todolist/js/nodos.js	/^function nodos(){$/;"	c
+nombre	/srv/http/todolist/clases/login.php	/^  private $nombre;$/;"	v	class:Login
+opt	/srv/http/todolist/js/login.js	/^   let  opt ={$/;"	c	class:ingresar_login
+opt	/srv/http/todolist/js/registro.js	/^  let opt = {$/;"	c	class:registrar_usuario
+proceso	/srv/http/todolist/js/registro.js	/^function proceso (salida){$/;"	f
+redireccion	/srv/http/todolist/js/login.js	/^function redireccion (data){$/;"	f
+registrar	/srv/http/todolist/clases/login.php	/^  public function registrar(){$/;"	f	class:Login
+registrar_usuario	/srv/http/todolist/js/registro.js	/^function registrar_usuario(){$/;"	f
+resultado	/srv/http/todolist/action/login.php	/^     $resultado = $log->ingresar();$/;"	v
+ruta	/srv/http/todolist/config/rutas.php	/^  $ruta = array($/;"	v
+salida	/srv/http/todolist/action/registro_usuario.php	/^    $salida = $log->registrar();$/;"	v
+salida	/srv/http/todolist/action/registro_usuario.php	/^    $salida = 0;$/;"	v
+salida	/srv/http/todolist/action/registro_usuario.php	/^  $salida = 0;$/;"	v
+sentencia_sql	/srv/http/todolist/clases/coneccion.php	/^  public function sentencia_sql ($query){$/;"	f	class:Conexion
+servidor	/srv/http/todolist/config/config_conexion.php	/^        $servidor="localhost";$/;"	v
+session	/srv/http/todolist/paginas/menu.php	/^function session(){$/;"	f
+tabla	/srv/http/todolist/clases/login.php	/^  private $tabla;$/;"	v	class:Login
+tabla_us	/srv/http/todolist/action/login.php	/^   $tabla_us = "usuarios";$/;"	v
+tabla_us	/srv/http/todolist/action/registro_usuario.php	/^$tabla_us="usuarios";$/;"	v
+ul	/srv/http/todolist/css/menu.css	/^	ul {$/;"	s
+ul	/srv/http/todolist/css/menu.css	/^ul{$/;"	s
+ul li	/srv/http/todolist/css/menu.css	/^ul li {$/;"	s
+usuarioBD	/srv/http/todolist/config/config_conexion.php	/^        $usuarioBD= "root"; \/\/id15912427_trabajo2$/;"	v
